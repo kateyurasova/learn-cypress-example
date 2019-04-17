@@ -1,0 +1,6 @@
+export const getLimits = () => {
+    return {
+        name: {min: 1, max: 100},
+        job: {min: 1, max: 100}
+    }
+}

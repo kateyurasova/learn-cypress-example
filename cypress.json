@@ -1,0 +1,4 @@
+{
+  "baseUrl": "https://reqres.in",
+  "integrationFolder": "cypress/api-tests"
+}
