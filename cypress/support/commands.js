@@ -30,8 +30,21 @@ Cypress.Commands.add("createUser", (requestBody) => {
     })
 })
 
-Cypress.Commands.add("getLimits", () => {
-    cy.readFile('cypress/fixtures/limits.json').then(limits => {
-        return limits
+Cypress.Commands.add("generateUserData", (testingData) => {
+    cy.fixture('limits').then(limits => {
+        testingData.forEach((dataSet) => {
+            dataSet.requestData = {name: "", job: ""}
+            for (let property in dataSet.requestData) {
+                dataSet.requestData[property] = (dataSet.description.includes('Average')) ?
+                    Chance().string({
+                        length: Chance().integer({
+                            min: limits[property].min + 1,
+                            max: limits[property].max - 1
+                        })
+                    }) :
+                    Chance().string({length: limits[property][dataSet.description]})
+            }
+        })
+        cy.writeFile('cypress/fixtures/usersData.json', testingData)
     })
 })
