@@ -2,7 +2,7 @@
   "baseUrl": "https://reqres.in",
   "integrationFolder": "cypress/all-tests",
   "projectId": "ki2hyc",
-  "defaultCommandTimeout": "10000",
+  "defaultCommandTimeout": 10000,
   "env": {
     "googleURL": "https://store.google.com/us"
   }
