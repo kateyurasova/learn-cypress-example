@@ -1,6 +1,6 @@
 import Chance from 'chance'
-import '../support/commands'
-import {getLimits} from '../testing-data/limits'
+import '../../support/commands'
+import {getLimits} from '../../testing-data/limits'
 
 const limits = getLimits()
 

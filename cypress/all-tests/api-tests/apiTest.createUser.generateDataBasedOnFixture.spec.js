@@ -1,5 +1,5 @@
-import '../support/commands'
-import {MIN, MAX, AVERAGE} from "../testing-data/limits"
+import '../../support/commands'
+import {MIN, MAX, AVERAGE} from "../../testing-data/limits"
 
 let testingData = [{description: MIN}, {description: MAX}, {description: AVERAGE}]
 

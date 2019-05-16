@@ -1,5 +1,9 @@
 {
   "baseUrl": "https://reqres.in",
-  "integrationFolder": "cypress/api-tests",
-  "projectId": "ki2hyc"
+  "integrationFolder": "cypress/all-tests",
+  "projectId": "ki2hyc",
+  "defaultCommandTimeout": "10000",
+  "env": {
+    "googleURL": "https://store.google.com/us"
+  }
 }
