@@ -1,4 +1,5 @@
 {
   "baseUrl": "https://reqres.in",
-  "integrationFolder": "cypress/api-tests"
+  "integrationFolder": "cypress/api-tests",
+  "projectId": "ki2hyc"
 }

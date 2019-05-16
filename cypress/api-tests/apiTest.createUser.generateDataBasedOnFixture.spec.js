@@ -1,6 +1,7 @@
 import '../support/commands'
+import {MIN, MAX, AVERAGE} from "../testing-data/limits"
 
-let testingData = [{description: 'min'}, {description: 'max'}, {description: 'average'}]
+let testingData = [{description: MIN}, {description: MAX}, {description: AVERAGE}]
 
 before(() => {
     cy.generateUserData(testingData)

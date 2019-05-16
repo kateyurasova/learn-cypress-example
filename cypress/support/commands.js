@@ -24,6 +24,9 @@
 // -- This is will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
+import {AVERAGE} from "../testing-data/limits";
+import Chance from 'chance'
+
 Cypress.Commands.add("createUser", (requestBody) => {
     cy.request('POST', '/api/users', requestBody).then((response) => {
         cy.writeFile('cypress/fixtures/users.json', response.body)
@@ -35,7 +38,7 @@ Cypress.Commands.add("generateUserData", (testingData) => {
         testingData.forEach((dataSet) => {
             dataSet.requestData = {name: "", job: ""}
             for (let property in dataSet.requestData) {
-                dataSet.requestData[property] = (dataSet.description.includes('Average')) ?
+                dataSet.requestData[property] = (dataSet.description.includes(AVERAGE)) ?
                     Chance().string({
                         length: Chance().integer({
                             min: limits[property].min + 1,
