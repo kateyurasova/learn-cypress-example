@@ -9,7 +9,7 @@ In order to run testing script at your own machine perform the following instruc
 Project URL: https://github.com/ZEFR-INC/rid3-e2e-test
 For example, you may load the project using the command line:
 ```
-git clone https://github.com/ZEFR-INC/rid3-e2e-test.git
+git clone https://github.com/kateyurasova/learn-cypress-example.git
 ```
 #### 2.2 Install components
 As soon as project is loaded, go to the root and perform command:
@@ -68,6 +68,7 @@ development and issues investigation. For running all the scope you should bette
 
 ##### 3.1 Results are loaded into the Cypress Dashboard
 Link for the reporting project: https://dashboard.cypress.io/#/projects/916brz/runs
+Please, log in with your credentials - since the project is public you will be able to see results and report into this project in case of running of tests at your local env with the key.
 
   
 
