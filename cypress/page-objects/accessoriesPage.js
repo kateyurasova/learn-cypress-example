@@ -1,5 +1,3 @@
-import SearchResultsPage from './searchResultsPage'
-
 class AccessoriesPage {
     open() {
         cy.visit(`${Cypress.env('googleURL')}/collection/accessories_wall?hl=en-US`);
