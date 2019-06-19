@@ -1,18 +1,13 @@
 class AccessoriesPage {
     open() {
-        cy.visit(`${Cypress.env('googleURL')}/collection/accessories_wall?hl=en-US`);
-    }
-
-    get searchIcon() {
-        return cy.get('.header-search-icon');
+        cy.visit(`${Cypress.env('googleURL')}`);
     }
 
     get searchInput () {
-        return cy.get('input[aria-label="Search Google Store"]');
+        return cy.get('#txtSearch');
     }
 
     performSearch(productToSearch) {
-        this.searchIcon.click();
         this.searchInput.type(`${productToSearch}{enter}`);
     }
 }

@@ -44,16 +44,10 @@ import AccessoriesPage from "../../page-objects/accessoriesPage"
 })*/
 
 describe('Google Market tests', () => {
-    before(() => {
-        cy.fixture('product').then(testingData => {
-            cy.wrap(testingData).as('productData')
-        })
-    })
     it('Positive: User is able to find product by name - page object pattern applied, values from fixture ' +
         '- using as()', () => {
-        cy.log('GIVEN User is at the Accessories Wall page')
-        AccessoriesPage.open()
-        cy.get('@productData').then((productData) => {
+        cy.fixture('product').then(productData => {
+            AccessoriesPage.open()
             cy.log('WHEN User clicks search icon')
             AccessoriesPage.performSearch(productData.name)
             cy.log('THEN produce is presented withing found results')
