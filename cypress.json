@@ -4,6 +4,6 @@
   "projectId": "ki2hyc",
   "defaultCommandTimeout": 10000,
   "env": {
-    "googleURL": "https://store.google.com/us"
+    "iherbURL": "https://www.iherb.com"
   }
 }

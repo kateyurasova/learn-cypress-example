@@ -1,6 +1,6 @@
 class SearchResultsPage {
-    getProductByDocId(docId) {
-        return cy.get(`a[href="/product/${docId}"]`);
+    getProductByDocId(href) {
+        return cy.get(`a[href="${href}"]`);
     }
 }
 
