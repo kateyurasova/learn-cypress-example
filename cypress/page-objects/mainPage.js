@@ -1,6 +1,6 @@
-class AccessoriesPage {
+class MainPage {
     open() {
-        cy.visit(`${Cypress.env('googleURL')}`);
+        cy.visit(`${Cypress.env('iherbURL')}`);
     }
 
     get searchInput () {
@@ -12,4 +12,4 @@ class AccessoriesPage {
     }
 }
 
-export default new AccessoriesPage()
+export default new MainPage()
