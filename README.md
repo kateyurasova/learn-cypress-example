@@ -1,4 +1,4 @@
-### Prerequisites:
+## 1. Prerequisites
 Before running test use should install NodeJS >6.1.0 at you environment:
 https://nodejs.org/en/download/
 
