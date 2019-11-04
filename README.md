@@ -1,3 +1,19 @@
+### Project Description ###
+
+This is an example of project based on Cypress.
+The project contains tests for web-services:
+1) create user endpoint provided by https://reqres.in/
+2) web-services for per entity provided by https://petstore.swagger.io/
+Testing data is generated randomly using chance library. 
+
+And there is also one UI tests for web-site https://www.iherb.com. Search by product name scenarios is implemented.
+It uses data from the fixture file and implemented using page-object.
+
+Note: Some of API tests are failed. Failures show problems in the web-services under test.
+There is an integration with Cypress Dashboard service and Test Rail system. 
+You may find details of how to find generated reports in the "Reporting" section below.
+
+
 ## 1. Prerequisites
 Before running test use should install NodeJS >6.1.0 at you environment:
 https://nodejs.org/en/download/
