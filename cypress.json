@@ -4,6 +4,15 @@
   "projectId": "ki2hyc",
   "defaultCommandTimeout": 10000,
   "env": {
-    "iherbURL": "https://www.iherb.com"
+    "iherbURL": "https://www.iherb.com",
+    "petStoreApiUrl": "https://petstore.swagger.io/v2"
+  },
+  "reporter": "cypress-testrail-accumulative-reporter",
+  "reporterOptions": {
+    "domain": "automationuniversity.testrail.com",
+    "username": "kateyurasova10@gmail.com",
+    "password": "AutomationUniversity2019",
+    "projectId": 1,
+    "suiteId": 1
   }
 }

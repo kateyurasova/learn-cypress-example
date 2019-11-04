@@ -67,8 +67,21 @@ development and issues investigation. For running all the scope you should bette
 #### 3. Reporting
 
 ##### 3.1 Results are loaded into the Cypress Dashboard
-Link for the reporting project: https://dashboard.cypress.io/#/projects/916brz/runs
-Please, log in with your credentials - since the project is public you will be able to see results and report into this project in case of running of tests at your local env with the key.
+Link for the reporting project: https://dashboard.cypress.io/#/projects/ki2hyc/runs
+Please, log in with your credentials - since the project is public you will be able to see results and report 
+into this project in case of running of tests at your local env with the key.
 
-  
+##### 3.2 Report sample is created in Test Rail
+To access the Test Rails account use the following credentials: 
+Login: kateyurasova10@gmail.com
+Password: AutomationUniversity2019
+This test rail account is created for demonstration of integration work and report view. 
+
+In order to find report generated as a result of execution of test, please, follow the link:
+https://automationuniversity.testrail.io/index.php?/runs/overview/1
+
+*Note*: Report is created in Test Rail only if you run all scope with command npx cypress run. 
+Report is not created if you run tests one by one in Cypress interactive window. 
+
+
 
