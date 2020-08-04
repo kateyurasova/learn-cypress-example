@@ -11,6 +11,9 @@
   "devDependencies": {
     "chance": "^1.0.18",
     "cypress": "3.4.0",
-    "cypress-testrail-accumulative-reporter": "^1.1.4"
+    "cypress-failed-log": "^2.7.0",
+    "cypress-testrail-accumulative-reporter": "^1.1.4",
+    "cypress-testrail-logs-screenshots": "^1.0.0",
+    "cypress-testrail-reporter": "^1.2.1"
   }
 }

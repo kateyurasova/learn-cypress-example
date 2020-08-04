@@ -7,13 +7,13 @@
     "iherbURL": "https://www.iherb.com",
     "petStoreApiUrl": "https://petstore.swagger.io/v2"
   },
-  "reporter": "cypress-testrail-logs-screenshots",
+  "reporter": "cypress-testrail-reporter",
   "reporterOptions": {
     "domain": "demodemodemo.testrail.com",
     "username": "kateyurasova@gmail.com",
     "password": "Demodemodemo2020!",
     "projectId": 2,
-    "active": true
+    "suiteId": 9
   },
   "projectId": "6cujwd"
 }
