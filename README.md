@@ -22,7 +22,7 @@ https://nodejs.org/en/download/
 
 In order to run testing script at your own machine perform the following instructions:
 #### 2.1 Load the project from the GitHub
-Project URL: https://github.com/ZEFR-INC/rid3-e2e-test
+Project URL: https://github.com/kateyurasova/learn-cypress-example
 For example, you may load the project using the command line:
 ```
 git clone https://github.com/kateyurasova/learn-cypress-example.git
